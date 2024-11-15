@@ -13,26 +13,38 @@ This project demonstrates the use of the Fork/Join Framework in Java to solve co
 1. Compile the Main Program
 Run the following command from the root directory:
 
-```javac -d out src/main/java/forkjoin/*.java src/main/java/utils/*.java src/main/java/forkjoin/Main.java```
+```
+javac -d out src/main/java/forkjoin/*.java src/main/java/utils/*.java src/main/java/forkjoin/Main.java
+```
 2. Compile the Tests
 Run the following command to compile test classes:
 
-```javac -d out -cp out src/test/java/tests/*.java```
+```
+javac -d out -cp out src/test/java/tests/*.java
+```
 3. Run the Main Program
 Execute the program to test both approaches:
 
-```java -cp out main.java.forkjoin.Main```
+```
+java -cp out main.java.forkjoin.Main
+```
 4. Run Individual Tests
 You can run each test individually:
 
 WorkStealingTest:
-```java -cp out test.java.tests.WorkStealingTest```
+```
+java -cp out test.java.tests.WorkStealingTest
+```
 
 WorkDealingTest:
-```java -cp out test.java.tests.WorkDealingTest```
+```
+java -cp out test.java.tests.WorkDealingTest
+```
 
 MainTest:
-```java -cp out test.java.tests.MainTest```
+```
+java -cp out test.java.tests.MainTest
+```
 
 ## **Understanding the Difference Between Work Stealing and Work Dealing**
 
