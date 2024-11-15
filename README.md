@@ -78,7 +78,7 @@ In this case, Work Dealing performed better because:
 
 For larger and less predictable workloads, Work Stealing might outperform Work Dealing by ensuring all threads remain busy. The choice of approach depends on the nature of the problem and the workload characteristics.
 
-Example Results:
-Approach	      Time (nanoseconds)
-Work Stealing	  834958
-Work Dealing	  468917
+| Approach       | Time (nanoseconds) |
+|----------------|--------------------|
+| Work Stealing  | 834958             |
+| Work Dealing   | 468917             |
